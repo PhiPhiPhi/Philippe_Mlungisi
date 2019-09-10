@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <style type="text/css"> @media (max-width: 500px) { #header { display: flex; } } </style>
 
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -25,29 +26,29 @@
 
 
     <header id="header">
-      <img src= 'img/logo.png'id="header-img">
+      <img src= 'https://static1.squarespace.com/static/54d3e88ce4b0be204d0da36a/t/566f5b70bfe873371e44c7b0/1525197822184/' width="5%" height="5%" id="header-img">
       <nav id="nav-bar">
         <ul>
-          <li class='nav-link' href='#'></li>
-          <li class='nav-link' href='#'></li>
-          <li class='nav-link' href='#'></li>
+          <li class='nav-link' href='#header'>Header </li>
+          <li class='nav-link' href='#video'>Video</li>
+          <li class='nav-link' href='#form'>Form</li>
         </ul>
       </nav>
     </header>
-
-    <video id='video' width="400" height="200" controls>
+<div id="container">
+    <video id='video' width="700" height="500" controls>
       <source src="movie.mp4" type="video/mp4">
       <source src="movie.ogg" type="video/ogg">
     Your browser does not support the video tag.
     </video>
 
-    <form action="" id="form">
-       <input type="email" id="email" placeholder='Please, enter an email address'>
-       <input id="submit" href="https://www.freecodecamp.com/email-submit"></input>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+       <input type="email" name="email" id="email" placeholder='Please, enter an email address'>
+       <input type='submit' id="submit"></input>
 
 
     </form>
-
+  </div>
 
     <script  src="js/index.js"></script>
   </body>
